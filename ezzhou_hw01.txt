@@ -1,0 +1,117 @@
+ezzhou - hw1/hw1_main
+
+Total Points Earned
+Theme: betterShooter, Earned Points: 5, Total Available Points: 5
+Theme: betterSkiier, Earned Points: 5, Total Available Points: 5
+Theme: finalScore, Earned Points: 5.0, Total Available Points: 5.0
+Theme: hasBeaten, Earned Points: 5.0, Total Available Points: 5.0
+Theme: getPenalties ShootingResult, Earned Points: 5.0, Total Available Points: 5.0
+Theme: pointsEarned ShootingResult, Earned Points: 5.0, Total Available Points: 5.0
+Theme: getPenalties SkiingResult, Earned Points: 5, Total Available Points: 5
+Theme: pointsEarned SkiingResult, Earned Points: 5, Total Available Points: 5
+
+Our tests on your code:
+Name: betterShooter #2; Result: PASSED
+Theme: betterShooter; Worth: 2; Earned: 2
+Description:
+ Testing betterShooter() where this shooter has a shooting score of 0
+
+Name: betterShooter #1; Result: PASSED
+Theme: betterShooter; Worth: 2; Earned: 2
+Description:
+ Testing betterShooter() where the other shooter has a shooting score of 0.
+
+Name: betterShooter #3; Result: PASSED
+Theme: betterShooter; Worth: 1; Earned: 1
+Description:
+ Testing betterShooter() where neither shooter has a shooting score of 0
+
+Name: betterSkiier #2; Result: PASSED
+Theme: betterSkiier; Worth: 2; Earned: 2
+Description:
+ Testing betterSkiier() where this skiier has a skiing score of 0.
+
+Name: betterSkiier #1; Result: PASSED
+Theme: betterSkiier; Worth: 2; Earned: 2
+Description:
+ Testing betterSkiier() where the other skiier has a skiing score of 0.
+
+Name: betterSkiier #3; Result: PASSED
+Theme: betterSkiier; Worth: 1; Earned: 1
+Description:
+ Testing betterSkiier() where neither skiier has a skiing score of 0.
+
+Name: finalScore #1; Result: PASSED
+Theme: finalScore; Worth: 2; Earned: 2
+Description:
+ Testing finalScore() method in FinalResult.
+
+Name: finalScore #3; Result: PASSED
+Theme: finalScore; Worth: 1.5; Earned: 1.5
+Description:
+ Testing finalScore() method in FinalResult with edge case of zero time per lap and all targets hit.
+
+Name: finalScore #2; Result: PASSED
+Theme: finalScore; Worth: 1.5; Earned: 1.5
+Description:
+ Testing finalScore() method in FinalResult with edge case of zero time per lap and no targets hit.
+
+Name: hasBeaten #1; Result: PASSED
+Theme: hasBeaten; Worth: 2.5; Earned: 2.5
+Description:
+ Testing hasBeaten() where one athlete has a better shooting score but the other a better skiing score.
+
+Name: hasBeaten #2; Result: PASSED
+Theme: hasBeaten; Worth: 2.5; Earned: 2.5
+Description:
+ Testing hasBeaten() where both athletes have the same skiing score but one has a better shooting score.
+
+Name: getPenalties ShootingResult #1; Result: PASSED
+Theme: getPenalties ShootingResult; Worth: 2; Earned: 2
+Description:
+ Testing getPenalties() method in ShootingResult.
+
+Name: getPenalties ShootingResult #3; Result: PASSED
+Theme: getPenalties ShootingResult; Worth: 1.5; Earned: 1.5
+Description:
+ Testing getPenalties() method in ShootingResult with edge case of all targets hit.
+
+Name: getPenalties ShootingResult #2; Result: PASSED
+Theme: getPenalties ShootingResult; Worth: 1.5; Earned: 1.5
+Description:
+ Testing getPenalties() method in ShootingResult with edge case of 0 targets hit.
+
+Name: pointsEarned ShootingResult #1; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 2; Earned: 2
+Description:
+ Testing pointEarned() method in ShootingResult.
+
+Name: pointsEarned ShootingResult #3; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 1.5; Earned: 1.5
+Description:
+ Testing pointEarned() method in ShootingResult with edge case of all targets hit.
+
+Name: pointsEarned ShootingResult #2; Result: PASSED
+Theme: pointsEarned ShootingResult; Worth: 1.5; Earned: 1.5
+Description:
+ Testing pointEarned() method in ShootingResult with edge case of 0 targets hit.
+
+Name: getPenalties SkiingResult #1; Result: PASSED
+Theme: getPenalties SkiingResult; Worth: 3; Earned: 3
+Description:
+ Testing getPenalties() method in SkiingResult.
+
+Name: getPenalties SkiingResult #2; Result: PASSED
+Theme: getPenalties SkiingResult; Worth: 2; Earned: 2
+Description:
+ Testing getPenalties() method in SkiingResult with edge case of zero time.
+
+Name: pointsEarned SkiingResult #1; Result: PASSED
+Theme: pointsEarned SkiingResult; Worth: 3; Earned: 3
+Description:
+ Testing pointEarned() method in SkiingResult.
+
+Name: pointsEarned SkiingResult #2; Result: PASSED
+Theme: pointsEarned SkiingResult; Worth: 2; Earned: 2
+Description:
+ Testing pointEarned() method in SkiingResult with edge case of zero time.
